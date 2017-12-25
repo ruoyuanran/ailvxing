@@ -1,0 +1,152 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: url(../img/images/bg.jpg);
+}
+a{
+	text-decoration: none;
+	color: #0000ee;
+}
+.clear{
+	clear: both;
+	overflow: hidden;
+	height: 0px;
+}
+.case{
+	width: 980px;
+	height: 380px;
+	margin: 100px auto 70px;
+	background: #f6f6f6;
+}
+.case .case-left{
+	width: 580px;
+	height: 380px;
+	float: left;
+}
+.case .case-left .left-center{
+	width: 500px;
+	height: 330px;
+	margin: 20px 36px 30px 44px;
+}
+.case .case-left .left-center span{
+	font-size: 13px;
+	margin-left: 5px;
+}
+.case .case-left .left-center .center{
+	width: 500px;
+	height: 300px;
+	margin-top: 5px;
+}
+.case .case-left .left-center .center .center-left{
+	width: 198px;
+	height: 300px;
+	float: left;
+	background: url(../img/images/upload/log1.jpg);
+	background-size: cover;
+}
+.case .case-left .left-center .center .center-right{
+	width: 298px;
+	height: 300px;
+	float: right;
+}
+.case .case-left .left-center .center .center-right .right-top{
+	width: 297px;
+	height: 138px;
+	background: url(../img/images/upload/log2.jpg);
+	background-size: cover;
+}
+.case .case-left .left-center .center .center-right .right-bottom{
+	width: 297px;
+	height: 158px;
+	margin-top: 4px;
+}
+.case .case-left .left-center .center .center-right .right-bottom .bottom-left{
+	width: 146px;
+	height: 158px;
+	float: left;
+	background: url(../img/images/upload/log3.jpg);
+	background-size: cover;
+}
+.case .case-left .left-center .center .center-right .right-bottom .bottom-right{
+	width: 146px;
+	height: 158px;
+	float: right;
+	background: url(../img/images/upload/log4.jpg);
+	background-size: cover;
+}
+
+
+
+
+
+
+
+.case .case-right{
+	width: 400px;
+	height: 380px;
+	background: #f9f9f9;
+	float: left;
+}
+.case .case-right .form{
+	width: 360px;
+	height: 330px;
+	margin: 20px 20px 30px 20px;
+}
+.case .case-right .form legend{
+	margin-left: 15px;
+}
+.case .case-right .form hr{
+	margin: 5px auto 0px;
+}
+.case .case-right .form input{
+	margin-left: 15px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+}
+.case .case-right .form .i1{
+	width: 330px;
+	height: 40px;
+	margin-top: 20px;
+}
+.case .case-right .form .i2{
+	width: 115px;
+	height: 35px;
+	background: #7dc82c;
+	margin-top: 20px;
+	border: 1px solid #cccccc;
+	color: white;
+	letter-spacing: 8px;
+}
+.case .case-right .form .i3{
+	width: 10px;
+	height: 10px;
+	margin-left: 65px;
+}
+.case .case-right .form label{
+	font-size: 13px;
+}
+.case .case-right .form .qq{
+	width: 135px;
+	height: 35px;
+	background: url(../img/images/head.png) -305px -124px;
+}
+.case .case-right .form .weibo{
+	width: 170px;
+	height: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: url(../img/images/head.png) -464px -124px;
+}
+.case .case-right .form span{
+	float: right;
+	font-size:12px;
+	margin-top: 30px;
+}
+
+.footer{
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+}

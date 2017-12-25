@@ -1,0 +1,219 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: url(../img/images/bg.jpg);
+}
+.clear{
+	clear: both;
+	height: 0px;
+	overflow: hidden;
+}
+a{
+	text-decoration: none;
+	color: #606060;
+}
+p{
+	color: #606060;
+}
+/*-----------固定导航--------------------*/
+.top{
+	width: 100%;
+	height: 95px;
+	border-bottom: 1px solid #cccccc;
+	position: fixed;
+	z-index: 99999999;
+}
+.top .top-top{
+	background: black;
+	height: 35px;
+}
+.top .top-top .top-center{
+	width: 975px;
+	height: 35px;
+	color: white;
+	font-size: 13px;
+	line-height: 35px;
+	margin: 0px auto;
+}
+.top .top-top .top-center .left{
+	float: left;
+	width: 170px;
+	height: 35px;
+}
+.top .top-top .top-center .right{
+	float: right;
+	width: 265px;
+	height: 35px;
+}
+.top .top-top .top-center .right .right_1,.right_2,.right_3,.right_6,.right_5{
+	float: left;
+	height: 35px;
+}
+.top .top-top .top-center .right .right_1, .right_6{
+	width: 41px;
+}
+.top .top-top .top-center .right .right_1 a, .right_6 a{
+	color: white;
+}
+.top .top-top .top-center .right .right_2{
+	background: url(../img/images/head.png) -104px -184px no-repeat;
+	width: 41px;
+	
+}
+.top .top-top .top-center .right .right_3{
+	background: url(../img/images/head.png) 6px -186px no-repeat;
+	width: 41px;
+	/*border: 1px solid red;*/
+}
+.top .top-top .top-center .right .right_4{
+	background-image: url(../img/images/upload/photos/admin.jpg);
+	background-size: cover;
+	float: left;
+	width: 31px;
+	height: 31px;
+	line-height: 35px;
+	margin: 3px auto;
+}
+.top .top-top .top-center .right .right_5{
+	width: 60px;
+	padding-left: 10px;
+}
+.top .top-bottom{
+	height: 60px;
+	width: 975px;
+	margin: 0px auto;
+	background: url(../img/images/bg.jpg);
+}
+.top .top-bottom .logo{
+	float: left;
+	width: 140px;
+	height: 55px;
+	background-image: url(../img/images/logo.png);
+	background-size: cover;
+	margin-right: 30px;
+}
+.top .top-bottom a{
+	line-height: 60px;
+	color: #000000;
+	margin: 0px 3px;
+}
+.top .top-bottom .a1{
+	font-size: 18px;
+}
+.top .top-bottom .a2{
+	font-size: 15px;
+	
+}
+.top .top-bottom .seca{
+	float: right;
+	height: 25px;
+	width: 220px;
+	margin: 18px 0px 0px 0px;
+	border: 1px solid #d4d4d4;
+	background: #f2f2f2;
+}
+.top .top-bottom .seca .i1{
+	float: left;
+	width: 180px;
+	height: 25px;
+	margin: -1px 0px 0px -1px;
+	border: 1px solid #d4d4d4;
+	
+}
+.top .top-bottom .seca .i2{
+	float: right;
+	background: url(../img/images/head.png) -106px -127px;
+	width: 36px;
+	height: 25px;
+	cursor: pointer;
+	margin: 0px 0px 0px 0px;
+	border: 0px solid #d4d4d4;	
+}
+
+/*---------------------------------------------------------*/
+
+
+.conter{
+	width: 950px;
+	margin:0px auto;
+	padding-top: 115px;
+	background: #f9f9f9;
+	padding-left: 25px;
+}
+.conter .left1, .left2, .right1, .right2{
+	width: 225px;
+	float: left;
+	margin: 5px 3px;
+}
+.conter .Frame{
+	width: 201px;
+	border: 1px solid #f1f1f1;
+	padding: 10px 12px;
+	margin-top: 4px;
+}
+.mig1, .new5, .best3, .new1, .new2, .weibo3, .weibo4, .mig2, .arc1, .weibo1{
+	
+	width: 200px;
+	height: 120px;
+	margin: 0px auto;
+}
+.mig1{
+	background: url(../img/images/upload/img1.jpg);background-size: cover;
+}
+.new5{
+	background: url(../img/images/upload/new5.jpg);background-size: cover;
+}
+.log1{
+	width: 200px;
+	height: 300px;
+	margin: 0px auto;
+	background: url(../img/images/upload/log1.jpg);background-size: cover;
+}
+.best3{
+	background: url(../img/images/upload/best3.jpg);background-size: cover;
+}
+.new1{
+	background: url(../img/images/upload/new1.jpg);background-size: cover;
+}
+.new2{
+	background: url(../img/images/upload/new2.jpg);background-size: cover;
+}
+.weibo3{
+	background: url(../img/images/upload/weibo3.jpg);background-size: cover;
+}
+.weibo4{
+	background: url(../img/images/upload/weibo4.jpg);background-size: cover;
+}
+.mig2{
+	background: url(../img/images/upload/img2.jpg);background-size: cover;
+}
+.arc1{
+	background: url(../img/images/upload/arc1.jpg);background-size: cover;
+}
+.weibo1{
+	background: url(../img/images/upload/weibo1.jpg);background-size: cover;
+}
+.conter p{
+	display: inline-block;
+	width: 200px;
+	margin: 0px auto;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.footer{
+	width: 100%;
+	height: 50px;
+	margin-top: 15px;
+}
+.footer .banquan{
+	width: 140px;
+	height: 15px;
+	margin: 0px auto;
+}
+.footer span{
+	line-height: 50px;
+	text-align: center;
+}

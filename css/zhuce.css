@@ -1,0 +1,113 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+	color: #351339;
+}
+body{
+	background: url(../img/images/wallpaper.jpg);
+	background-size: cover;
+}
+input{
+	border-radius: 5px;
+}
+.clear{
+	clear: both;
+	overflow: hidden;
+	height: 0px;
+}
+#conter{
+	width: 980px;
+	height: 370px;
+	margin:550px auto 0px;
+	background: #f9f9f9;
+	border-radius: 5px;
+	border: 1px solid #f9f9f9;
+}
+#conter .conter{
+	width: 900px;
+	height: 310px;
+	margin: 35px auto 45px;
+}
+#conter .conter .form-left{
+	width: 450px;
+	height: 310px;
+	float: left;
+}
+#conter .conter .font{
+	width: 80px;
+	height: 30px;
+	font-size: 18px;
+	padding-left: 10px;
+	letter-spacing: 2px;
+	border-bottom: 6px solid #75c50a;
+	margin-bottom: 50px;
+}
+#conter .conter .form-left label{
+	display: inline-block;
+	width: 82px;
+	height: 40px;
+}
+#conter .conter .form-left label span{
+	height: 40px;
+	width: 60px;
+	padding-left: 30px;
+}
+#conter .conter .form-left .ip0{
+	width: 240px;
+	height: 40px;
+	margin-bottom: 26px;
+	border: 1px solid #cccccc;
+}
+#conter .conter .form-left .ipz{
+	width: 115px;
+	height: 36px;
+	background: #82cb2d;
+	border: 1px solid #cccccc;
+	margin-left: 105px;
+	letter-spacing: 4px;
+	color: white;
+	font-size: 16px;
+}
+#conter .conter .form-right{
+	width: 409px;
+	height: 310px;
+	float: right;
+	padding-left: 40px;
+	border-left: 1px solid gray;
+}
+#conter .conter .form-right .ip1, .ip2, .ip3, .ip4, .ip5{
+	border: 1px solid #cccccc;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+#conter .conter .form-right .ip1, .ip3, .ip5{
+	width: 140px;
+	height: 40px;
+}
+#conter .conter .form-right .ip2, .ip4{
+	width: 170px;
+	height: 40px;
+	margin-left: 70px;
+}
+#conter .conter .form-right .ip1{
+	background: url(../img/images/head.png) -305px -423px;
+}
+#conter .conter .form-right .ip2{
+	background: url(../img/images/head.png) -465px -424px;
+}
+#conter .conter .form-right .ip3{
+	background: url(../img/images/head.png) -305px -479px;
+}
+#conter .conter .form-right .ip4{
+	background: url(../img/images/head.png) -465px -479px;
+}
+#conter .conter .form-right .ip5{
+	background: url(../img/images/head.png) -305px -535px;
+}
+#conter .conter .form-right a{
+	float: right;
+	margin-top: 35px;
+}
